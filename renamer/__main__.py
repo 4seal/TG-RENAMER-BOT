@@ -30,13 +30,13 @@ def main():
     startup_msg = f"Successfully deployed your Renamer at @{me.username}\n"
     startup_msg += f"Pyrogram Version: V{__version__}\n"
     startup_msg += f"Python Version: V{platform.python_version()}\n\n"
-    startup_msg += "Thanks for deploying our bot. Please give a star to my repo and join @Ns_bot_updates."
+    startup_msg += "Thanks for deploying our bot. Please @hackersbash."
     print(startup_msg)
 
     idle()
 
     Renamer.stop()
-    print("Ok bye bye 😢.")
+    print("Ok bye bye.support @deprokip 😢.")
 
 if __name__ == "__main__":
     main()
